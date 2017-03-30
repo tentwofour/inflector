@@ -1,0 +1,6 @@
+composer.lock
+vendor
+composer.phar
+
+## Directory-based project format:
+.idea/
