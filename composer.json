@@ -17,15 +17,16 @@
     }
   ],
   "require": {
-    "php": "^5.6|^7.0"
+    "php": "^7.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^5.7"
+    "phpunit/phpunit": "^6.0"
   },
   "minimum-stability": "stable",
   "autoload": {
-    "psr-0": {
-      "Ten24\\": "src/"
+    "psr-4": {
+      "Ten24\\Component\\": "src/",
+      "Ten24\\Tests\\": "tests/"
     }
   },
   "extra": {
